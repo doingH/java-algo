@@ -1,12 +1,4 @@
 package 인프런;
-class Node{
-	int data;
-	Node lt, rt;
-	public Node(int val) {
-		data = val;
-		lt=rt=null;
-	}
-}
 
 public class 이진트리순회 {
 	

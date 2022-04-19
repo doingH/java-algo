@@ -26,7 +26,6 @@ public class 부분집합구하기DFS_6 {
 		
 	}
 	public static void main(String[] args) {
-		LinkedList
 		n=3;
 		check = new int[n+1];
 		DFS(1);
