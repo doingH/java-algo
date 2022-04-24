@@ -1,4 +1,4 @@
-package 인프런;
+package 인프런.DFSBFS;
 
 public class 재귀함수_스택프레임 {
 	public static void DFS(int n) {

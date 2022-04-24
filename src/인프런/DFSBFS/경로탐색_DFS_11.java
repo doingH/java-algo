@@ -1,10 +1,10 @@
-package 인프런;
+package 인프런.DFSBFS;
 
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
-public class 그래프와인접행렬 {
+public class 경로탐색_DFS_11 {
 	
 	static int graph[][];
 	static int check[][];

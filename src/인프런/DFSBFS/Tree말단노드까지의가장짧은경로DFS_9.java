@@ -1,4 +1,4 @@
-package 인프런;
+package 인프런.DFSBFS;
 
 //말단 노드 찾기
 public class Tree말단노드까지의가장짧은경로DFS_9 {

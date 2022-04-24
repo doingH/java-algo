@@ -1,4 +1,4 @@
-package 인프런;
+package 인프런.DFSBFS;
 
 import java.util.LinkedList;
 import java.util.Queue;

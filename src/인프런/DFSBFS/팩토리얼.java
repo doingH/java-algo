@@ -1,4 +1,4 @@
-package 인프런;
+package 인프런.DFSBFS;
 
 public class 팩토리얼 {
 	

@@ -1,4 +1,4 @@
-package 인프런;
+package 인프런.DFSBFS;
 
 public class 피보나치수열 {
 	
