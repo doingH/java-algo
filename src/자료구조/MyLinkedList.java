@@ -1,5 +1,7 @@
 package 자료구조;
 
+import java.util.ArrayList;
+
 public class MyLinkedList {
 	
 	private Node head;
@@ -21,11 +23,8 @@ public class MyLinkedList {
 	
 	public void addFirst(Object input){
 		
-	    // 노드를 생성합니다.
 	    Node newNode = new Node(input);
-	    // 새로운 노드의 다음 노드로 해드를 지정합니다.
 	    newNode.next = head;
-	    // 헤드로 새로운 노드를 지정합니다.
 	    head = newNode;
 	    size++;
 	    if(head.next == null){
@@ -35,25 +34,25 @@ public class MyLinkedList {
 	public void addLast(Object input){
 	    // 노드를 생성합니다.
 	    Node newNode = new Node(input);
-	    // 리스트의 노드가 없다면 첫번째 노드를 추가하는 메소드를 사용합니다.
 	    if(size == 0){
 	        addFirst(input);
 	    } else {
-	        // 마지막 노드의 다음 노드로 생성한 노드를 지정합니다.
 	        tail.next = newNode;
-	        // 마지막 노드를 갱신합니다.
 	        tail = newNode;
 	        size++;
 	    }
 	}
+	
+	
+	
 	Node node(int index) {
 	    Node x = head;
 	    for (int i = 0; i < index; i++)
 	        x = x.next;
 	    return x;
 	}
+	
 	public void add(int k, Object input){
-	    // 만약 k가 0이라면 첫번째 노드에 추가하는 것이기 때문에 addFirst를 사용합니다.
 	    if(k == 0){
 	        addFirst(input);
 	    } else {
@@ -68,10 +67,13 @@ public class MyLinkedList {
 	        }
 	    }
 	}
+	
 	public String toString() {
-	    if(head == null){
+		
+	    if(head == null) {
 	        return "[]";
-	    }       
+	    }
+	    
 	    Node temp = head;
 	    String str = "[";
 	    while(temp.next != null){
@@ -85,7 +87,6 @@ public class MyLinkedList {
 	    // 첫번째 노드를 temp로 지정하고 head의 값을 두번째 노드로 변경합니다.
 	    Node temp = head;
 	    head = temp.next;
-	    // 데이터를 삭제하기 전에 리턴할 값을 임시 변수에 담습니다. 
 	    Object returnData = temp.data;
 	    temp = null;
 	    size--;
