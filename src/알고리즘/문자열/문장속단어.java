@@ -1,4 +1,4 @@
-package 인프런.문자열;
+package 알고리즘.문자열;
 
 import java.util.StringTokenizer;
 

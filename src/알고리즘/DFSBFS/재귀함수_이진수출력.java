@@ -1,4 +1,4 @@
-package 인프런.DFSBFS;
+package 알고리즘.DFSBFS;
 
 public class 재귀함수_이진수출력 {
 	public static void DFS(int N) {

@@ -1,4 +1,4 @@
-package 프로그래머스;
+package 테스트;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -18,8 +18,8 @@ public class 네트워크 {
 		
 		for(int list : graphList.get(N)) {
 			if(!dup.contains(list)) {
-			dup.add(list);
-			DFS(list);
+				dup.add(list);
+				DFS(list);
 			}
 		}
 		

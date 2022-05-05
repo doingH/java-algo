@@ -1,4 +1,4 @@
-package 인프런.DFSBFS;
+package 알고리즘.DFSBFS;
 
 import java.util.LinkedList;
 

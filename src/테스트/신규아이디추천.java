@@ -1,4 +1,4 @@
-package 프로그래머스;
+package 테스트;
 
 public class 신규아이디추천 {
 	public static void main(String[] args) {

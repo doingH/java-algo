@@ -1,4 +1,4 @@
-package 프로그래머스;
+package 테스트;
 
 public class 행렬테두리회전하기 {
 	

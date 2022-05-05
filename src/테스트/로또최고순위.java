@@ -1,4 +1,4 @@
-package 프로그래머스;
+package 테스트;
 
 import java.util.Arrays;
 import java.util.HashSet;
