@@ -1,4 +1,4 @@
-package 디자인패턴.factory.decorator;
+package 디자인패턴.decorator;
 
 public class RamenStore {
 	

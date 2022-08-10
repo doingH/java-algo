@@ -1,4 +1,4 @@
-package 디자인패턴.factory.decorator;
+package 디자인패턴.decorator;
 
 //누들 인터페이스를 구현하고
 public class RamenDecorator implements Noodle {
