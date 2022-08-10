@@ -38,7 +38,7 @@ public class 가장짧은문자거리 {
 			System.out.print(post < pre ? post + " " : pre + " ");
 		}
 		
-		Hashtable<K, V>
+		//Hashtable<K, V>
 		
 	}
 }
